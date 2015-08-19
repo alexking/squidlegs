@@ -23,7 +23,7 @@ class Canvas {
 	}
 
 	height() {
-		return this.element.height; 
+		return this.element.height;
 	}
 
 	clear() {

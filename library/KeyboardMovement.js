@@ -1,6 +1,3 @@
-/**
- * Uses a keyboard c
- */
 class KeyboardMovement {
 
 	/**
@@ -48,7 +45,7 @@ class KeyboardMovement {
 	}
 
 	name() {
-		return this.keyboard.latest; 
+		return this.keyboard.latest;
 	}
 
 	/**

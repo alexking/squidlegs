@@ -18,7 +18,7 @@ class Sprite {
 	draw(context, sprite, rotation, x, y) {
 
 		var spriteX, spriteY = 0;
-		if (_.isArray(sprite)) {
+		if (typeof sprite[0] !== "undefined") {
 			[spriteX, spriteY] = sprite;
 		} else {
 			spriteX = sprite;

@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"gulp-babel": "~5.1.0",
+		"gulp-concat": "~2.6.0"
+	}
+}
