@@ -6,7 +6,7 @@ Quick and dirty game framework that works with Babel and Gulp so you can write E
 
 It consists of –
 
-- 1 squid
+- `1` squid
 - `library/` A basic set of ES6 Javascript classes, designed to be pretty modular so you can `new` whatever you actually need
 	- `Loop` - use `requestAnimationFrame` to setup your main game loop
 	- `Canvas`, `DomCanvas`, and `VirtualCanvas` - wrapper to draw to an onscreen or offscreen canvas (holds `context` and has helpers like `rotate`)
